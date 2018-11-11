@@ -1,0 +1,9 @@
+Conclusiones:
+- Para trabajar con laravel es necesario descargar  "Composer"
+- Es importante dar bien la direccion de descarga de Composer , se recomienda instalarlo en la carpeta de wamp64
+- Laravel es un framework que trabaja con el modelo vista controlador (MVC)
+- Normalmente se prueba con el puerto 8080 , pero en algunos casos , este ya esta ocupado asi que es necesario cambiar de puerto
+Observaciones:
+- Cuando creamos nuestro proyecto con Composer , podemos tanbiem asignarle con que version de laravel queremos trabajar
+- No trabajamos con sublimeText , en vez de eso usamos Atom
+- No se pudo trabajar con Xampp ya que , ocurria un error en los puertos
