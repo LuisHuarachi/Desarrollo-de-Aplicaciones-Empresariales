@@ -1,0 +1,17 @@
+CONCLUSIONES:
+- Las migraciones sirven para crear nuestras tablas con nuestras restricciones por asi decirlo 
+- Los Seeders nos sirven para inicializar las tablas con datos  , estas nos permiten alimentar las tablas
+- Con los Seeders podemos crear datos de prueba con los que podemos trabajar durante el desarrollo de la aplicacion
+- Se pone en modo debug para probar los distintos errores , sobre todo para probar los mensajes de emergencia 
+- Los Request nos permiten definir reglas  , como definir que atributos son requeridos ,etc
+- Tambien es importante  darle true en su funcion "authorize" para que funcione
+
+
+OBSERVACIONES:
+- Ya existen 2 migraciones por defecto la de User y de password
+- Cuando ejecutamos o efectuamos las migraciones , estas crean las tablas correspondientes en la base de datos , y tambien se crea una tabla de migraciones("migrations")
+- En la creacion del atributo contraseña , cuando vemos en la base de datos , esta esta encriptada 
+- En los request de validacion , se da las reglas de que es obligatorio el email y la contraseña para iniciar sesion 
+- Se debe importar los request utilizados , tanto como la clase Auth 
+
+  

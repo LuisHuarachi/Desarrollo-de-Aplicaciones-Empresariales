@@ -1,0 +1,14 @@
+OBSERVACIONES:
+- Laravel ya tiene por defecto sus raices de css para cada vista
+- En el request de ActualizarAlbum se define en la reglas  que el id es requerido y tiene qiue existir en la tabla albunes en su columna id , para de esta forma sea reconocida  
+- En la funcion de postActualizarAlbum  ,  se requiere de la tabla Album el id , de igual forma el nombre y la descripcion para hacer la actualizacion y por ultimo se hace un "save" ´para guardar los cambios
+- No se puede editar con archivos mas grandes a 20 mb 
+
+
+
+CONCLUSIONES:
+- En la funcion getActualizarAlbum se recibe como parametro por el URL el id del album que vamos a actualizar  
+- En el caso de los Albunes y de las Fotos , 
+- En las vistas de actualizar foto y album , en el HTML se utilizo la propiedad "required" , esta sirve para pedir en el input que si o si sea llenada 
+- En la ruta del boton de editar Album o Foto  , se define el id de la foto o el Album para hacer la actualizacion  
+

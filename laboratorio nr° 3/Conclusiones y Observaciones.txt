@@ -1,0 +1,17 @@
+OBSERVACIONES:
+-Se sigue retornando un String en las funciones de cada controlador , es para hacer pruebas 
+- se crea la funcion "missinMethod" cuando suceda un error en una ruta que no exista
+- No necesariamente se tienen que utilizar todos los metodos de los controladores
+- La definicion del orden de las rutas es muy importante , se puso el inicio y la validacion en ultimo lugar ya que si se los ponia en primer lugar , no entrara en las demas rutas , ya que dependen de estas ; se lee de abajo para arriba
+- Laravel ya tiene vistas de la bienvenida o de incio de sesion
+- Las vistas de extension "blade.php" se pueden trabajar codigo HTML , las ligas del CSS del sistema y una seccion exclusiva para los archivos Javascript y tambien lenguaje php.
+- Ya se retorna vistas en las funciones de los controladores .
+
+
+CONCLUSIONES:
+-Se procede a crear los controladores para cada seccion , como las fotos , albunes , usuarios,etc.
+-Los controladores se encargar de definir las funciones principales para cada seccion que tendra la pagina web 
+-Casi siempre se pone en el constructor un middleware del "auth"  que es como una pequeña restriccion , en este caso para el logeo , ya que la clase "AUTH" tiene imformacion del usuario 
+-Se utilizo una forma rapida y eficaz en la defincion de las rutas , ya que la forma que esta en la primera parte , mientras mas fucniones y requerimientos haya se hara mas extenso el codigo
+- La funcion "handle" en "Auntenticate.php" es importante , esta verifica si el usuario esta autenticado o no , cuando queremos acceder a una ruta mas halla de la validacion , este nos manda erro , cuando comentamos la funcion handle , ya podemos acceder a estas rutas sin importar la autenticacion del usuario
+- En las vistas de php se trabaja con textos con extension "blade.php" , laravel hace facilitarnos el codigo .

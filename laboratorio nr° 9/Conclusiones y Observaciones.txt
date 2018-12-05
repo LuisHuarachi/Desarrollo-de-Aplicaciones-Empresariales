@@ -1,0 +1,12 @@
+CONCLUSIONES:
+- Como vimos antes , en los request de Foto y Album , en su funcion authorize , debemos ver que estos esten en relacion por su id  y que tambien existan 
+- En la funcion para eliminar Album , solo necesitamos el id del Album y de esta manera borrar las fotos dentro y propiamente el Album 
+- La funcionunlik borra un archivo 
+- La funcion file_exist comprueba si un fichero o directorio existe
+- La funcion realpath devuelve el nombre de la ruta de un archivo 
+- en la funcion postEliminarFoto , basicamente en el if se verifica que si la ruta de la imagen existe , la borre seguidamente tambien se elimine la foto
+
+OBSERVACIONES:
+- En las vistas de Eliminar Foto o Album , siempre tienen un mensaje de alerta o de operacion exitosa
+- cada Operacion tiene su mensaje de alerta 
+- La funcion de authorize , deben ser verdaderas , caso contrario no se procedera con las demas funciones

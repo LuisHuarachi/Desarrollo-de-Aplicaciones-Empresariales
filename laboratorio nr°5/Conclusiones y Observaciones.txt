@@ -1,0 +1,12 @@
+CONCLUSIONES:
+- Los Request , nos permiten dar reglas o restricciones , como por ejemplo que atributos tienen que ser requeridos
+- Es importante cambiar el retorno a true en la funcion "authorize" de cada request 
+- En cada funcion de los controladores se recibe como paremetro un objeto del request requerido
+- Se tiene que importar cada Request que se utilize
+- Hubo problemas en la muestra de los albunes y fotos , ya que estas estaban mal definidas en su relacion de muchos muchos y de uno a muchos
+
+OBSERVACIONES:
+- Ahora ya se retorna las respectivas vistas en las funciones de los controladores
+- Como vemos en la vista de actualizar perfil , en la propiedad  "value" se usa hace referencia a la clase "AUTH" , donde agarra el atributo nombre de la tabla "user" 
+- Casi siempre se tiene que importar la clase Auth , ya que esta contiene imformacion del usuario logeado
+- Se tiene notificaciones de tipo alerta o de suceso exitoso para los distintos cambios que se hace

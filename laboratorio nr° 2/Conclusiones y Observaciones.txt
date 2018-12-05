@@ -1,0 +1,16 @@
+CONCLUSIONES:
+- Con el "comando php artisan list" podemos ver todos los comandos disponibles en artisan 
+- Se modifica el archivo "env." con las credenciales de nuestra base de datos 
+- La definicon de cardinalidades es muy importante , ya que en ello se declara practicamente que relacion tienen cada tabla
+-El Trait es similar a una clase, pero su unico objetivo es agrupar funcionalidades muy especificas de manera coherente
+- El TRAIT sirve como una conexion de funciones de otras clases   
+-El controlador del validacion , aqui se definen todas las funciones posibles para realizar , como registrar , logear , etc.
+
+OBSERVACIONES:
+- Se modifica el archivo hosts , para asignar un nombre de dominio con resolucion de nuestro localhost :"gestorlaravel.com"
+- En los controladores se tiene siempre un "middleware" que esto creo que es como una validacion del usuario 
+- Por ahora en las funciones se retorna solo palabras y no vistas , ya que posteriormente se pondran las vistas respectivas para cada funcion.
+
+PREGUNTAS:
+- ¿Para sirve sirve el TRAIT de php?
+  Es un mecanismo de reutilzacion de codigo , lo que es lenguajes de herencia simple

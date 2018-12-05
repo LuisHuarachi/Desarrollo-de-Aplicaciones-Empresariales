@@ -1,0 +1,13 @@
+CONCLUSIONES:
+-  En esta parte , se mejora aspectos y detalles minimos de la vista de nuestro proyecto
+- Se modifico la  vista de las fotos , para que estas solo tengan 4 columnas nada mas 
+- Se modifico la  vista de los albunes , para que estas solo tengan 3 columnas nada mas 
+- Se modifico la funcion de eliminar Album , se le agrego un for para que sea mas eficas la eliminacion de fotos que hay en el album 
+- Se alimenta la base de datos , en otras palabras restarurarla de nuevo con los seeders para poder probar el funcionamiento del proyecto
+
+
+
+
+OBSERVACIONES:
+ - En las vistas de crear Foto o Album , se podria requerir botones de cancelar o retroceso 
+- Hubo un error en la foto del laboratorio , en la funcion de eliminar album en la linea 63 , cundo se le asigna un valor a la variable fotos, se extrae de la variable album la funcion de fotos , no la variable fotos

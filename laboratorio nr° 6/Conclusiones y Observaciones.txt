@@ -1,0 +1,10 @@
+CONCLUSIONES:
+- En el Request  de crear Album se define que el nombre y la descripcion son requeridas , caso contrario no se podra hacer la creacion del abum
+- En la funcion getIndex de fotoContoller  , enviamos en el return el id del album donde esta la foto  , para que de esta manera se mostrara en la ruta 
+- Se utilizo la fucnion "getcwd" para obtener el directorio de origen del archivo 
+- La libreria "Carbom" nos ayuda con la funcion "now" para saber el momento actual en que se realiza la operacion
+OBSERVACIONES:
+- Se emplea mesajes de alerta para cada funcion 
+- En el request de crearFotoRequest se cambie la funcion "authorize " , ya que comprobaremos que el album pertenece al usuario logeado
+- En las reglas de crearFotoRequest  se requiere que el id del album exista , para que de esta manera sepa cual es el abum y la foto correspondiente
+- Se puede dar el valor de peso de la imagen , en este caso es de 20mb 
